@@ -1,0 +1,2891 @@
+fileFormatVersion: 2
+guid: 0aaf8caddd1854a5b9ecd224d852fc10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1040443106902787240
+    second: mega_man_0
+  - first:
+      213: -6052671907699419936
+    second: mega_man_1
+  - first:
+      213: -7146945791085376799
+    second: mega_man_2
+  - first:
+      213: -70111817443389609
+    second: mega_man_3
+  - first:
+      213: 5076470452242945952
+    second: mega_man_4
+  - first:
+      213: -6912354429947631124
+    second: mega_man_5
+  - first:
+      213: -2503426889075776485
+    second: mega_man_6
+  - first:
+      213: 994342880747956885
+    second: mega_man_7
+  - first:
+      213: 6991587477958725529
+    second: mega_man_8
+  - first:
+      213: -4165357023240997735
+    second: mega_man_9
+  - first:
+      213: 8033378231193385718
+    second: mega_man_10
+  - first:
+      213: 2034886574790399772
+    second: mega_man_11
+  - first:
+      213: 1947660213025458044
+    second: mega_man_12
+  - first:
+      213: 6102523070543499595
+    second: mega_man_13
+  - first:
+      213: 2930054239922515522
+    second: mega_man_14
+  - first:
+      213: -4865527140875587265
+    second: mega_man_15
+  - first:
+      213: -2824124824754492322
+    second: mega_man_16
+  - first:
+      213: 1722800585036597533
+    second: mega_man_17
+  - first:
+      213: -4243506080616049174
+    second: mega_man_18
+  - first:
+      213: -6067978402092373923
+    second: mega_man_19
+  - first:
+      213: 3901805891456103621
+    second: mega_man_20
+  - first:
+      213: 8667523695088288834
+    second: mega_man_21
+  - first:
+      213: 397394334686634195
+    second: mega_man_22
+  - first:
+      213: 2741658243269211483
+    second: mega_man_23
+  - first:
+      213: -8873042505469439922
+    second: mega_man_24
+  - first:
+      213: -7503400279953229986
+    second: mega_man_25
+  - first:
+      213: -3585831141015142256
+    second: mega_man_26
+  - first:
+      213: -111210497290502442
+    second: mega_man_27
+  - first:
+      213: 5788237556589167033
+    second: mega_man_28
+  - first:
+      213: 147540746502230881
+    second: mega_man_29
+  - first:
+      213: 6469271368415679283
+    second: mega_man_30
+  - first:
+      213: -4415593029143344954
+    second: mega_man_31
+  - first:
+      213: -6093190262122202283
+    second: mega_man_32
+  - first:
+      213: 5513710930124694658
+    second: mega_man_33
+  - first:
+      213: 6497914804903758348
+    second: mega_man_34
+  - first:
+      213: 5561675301528207185
+    second: bullet
+  - first:
+      213: 2746953633635069292
+    second: mega_man_36
+  - first:
+      213: 6350237110556170272
+    second: mega_man_37
+  - first:
+      213: 5496533891509713384
+    second: mega_man_38
+  - first:
+      213: -516756890535615098
+    second: mega_man_39
+  - first:
+      213: -421711903298912260
+    second: mega_man_40
+  - first:
+      213: -4703576020067382856
+    second: mega_man_41
+  - first:
+      213: 5986980089184910910
+    second: mega_man_42
+  - first:
+      213: 1890234510545328881
+    second: mega_man_43
+  - first:
+      213: -669746641509619259
+    second: mega_man_44
+  - first:
+      213: 3185436514252172467
+    second: mega_man_45
+  - first:
+      213: 6767956305805991579
+    second: mega_man_46
+  - first:
+      213: -352395433967363925
+    second: mega_man_47
+  - first:
+      213: -632740102052895707
+    second: mega_man_48
+  - first:
+      213: -321305009664437140
+    second: mega_man_49
+  - first:
+      213: -7262949531729843675
+    second: mega_man_50
+  - first:
+      213: 1679048742023287172
+    second: mega_man_51
+  - first:
+      213: 3646556370711837226
+    second: mega_man_52
+  - first:
+      213: 7089432048867478111
+    second: mega_man_53
+  - first:
+      213: -3698117581167920764
+    second: mega_man_54
+  - first:
+      213: 8126639872198328739
+    second: mega_man_55
+  - first:
+      213: -2410711911765527230
+    second: mega_man_56
+  - first:
+      213: 5033222027767745581
+    second: mega_man_57
+  - first:
+      213: -1115307919385386544
+    second: mega_man_58
+  - first:
+      213: -5759850742704718468
+    second: mega_man_59
+  - first:
+      213: -8807906454959854644
+    second: mega_man_60
+  - first:
+      213: -8084564641166958532
+    second: mega_man_61
+  - first:
+      213: -4728983013293503799
+    second: mega_man_62
+  - first:
+      213: 1696807553692493759
+    second: mega_man_63
+  - first:
+      213: 2250995813913128199
+    second: mega_man_64
+  - first:
+      213: 2429103076653123087
+    second: mega_man_65
+  - first:
+      213: -5855733061499925867
+    second: mega_man_66
+  - first:
+      213: 1896907971534756349
+    second: mega_man_67
+  - first:
+      213: -4262125022403020059
+    second: mega_man_68
+  - first:
+      213: -1233879246970804352
+    second: mega_man_69
+  - first:
+      213: 8647523792577261492
+    second: mega_man_70
+  - first:
+      213: 7078658117955150399
+    second: mega_man_71
+  - first:
+      213: -6990894398478218081
+    second: mega_man_72
+  - first:
+      213: 2025907619548688980
+    second: mega_man_73
+  - first:
+      213: 6540558421599052020
+    second: mega_man_74
+  - first:
+      213: 4290871060104431319
+    second: mega_man_75
+  - first:
+      213: -9068542644118631311
+    second: mega_man_76
+  - first:
+      213: -5990794039922091007
+    second: mega_man_77
+  - first:
+      213: -7189759810134508611
+    second: mega_man_78
+  - first:
+      213: -7905724334968335531
+    second: mega_man_79
+  - first:
+      213: 8786847439496399729
+    second: mega_man_80
+  - first:
+      213: 1652600730376462142
+    second: mega_man_81
+  - first:
+      213: 2282994018028244000
+    second: mega_man_82
+  - first:
+      213: -5499755514773063408
+    second: mega_man_83
+  - first:
+      213: 2948239202205092953
+    second: mega_man_84
+  - first:
+      213: -7147492144645525801
+    second: mega_man_85
+  - first:
+      213: -7046149893639143728
+    second: mega_man_86
+  - first:
+      213: -9117617742301297410
+    second: mega_man_87
+  - first:
+      213: 4568834344325885739
+    second: mega_man_88
+  - first:
+      213: 48081165046999309
+    second: mega_man_89
+  - first:
+      213: -3774985592773434932
+    second: mega_man_90
+  - first:
+      213: 4128843890675799136
+    second: mega_man_91
+  - first:
+      213: -8031313700653079856
+    second: mega_man_92
+  - first:
+      213: 8656657469852073612
+    second: mega_man_0
+  - first:
+      213: 8750919014632628429
+    second: mega_man_1
+  - first:
+      213: 531660533483858061
+    second: mega_man_2
+  - first:
+      213: 8343982123490665982
+    second: mega_man_3
+  - first:
+      213: 3418627556994551029
+    second: mega_man_4
+  - first:
+      213: 3501667450865867812
+    second: mega_man_5
+  - first:
+      213: -879404519720242670
+    second: mega_man_6
+  - first:
+      213: 7776472739052673097
+    second: mega_man_7
+  - first:
+      213: -4942680559174931921
+    second: mega_man_8
+  - first:
+      213: 4121940083306617503
+    second: mega_man_9
+  - first:
+      213: 5806371868546945636
+    second: mega_man_10
+  - first:
+      213: 7016753201748141540
+    second: mega_man_11
+  - first:
+      213: 7170197832763759623
+    second: mega_man_12
+  - first:
+      213: -1066320619172214291
+    second: mega_man_13
+  - first:
+      213: 7342878932457505844
+    second: mega_man_14
+  - first:
+      213: -8371401713815812892
+    second: mega_man_15
+  - first:
+      213: -7912248394028129073
+    second: mega_man_16
+  - first:
+      213: 8615556360812257543
+    second: mega_man_17
+  - first:
+      213: -131700408571477798
+    second: mega_man_18
+  - first:
+      213: 1998900663499249211
+    second: mega_man_19
+  - first:
+      213: 551751557204143062
+    second: mega_man_20
+  - first:
+      213: 8497379448306076001
+    second: mega_man_21
+  - first:
+      213: 5462807449897636122
+    second: mega_man_22
+  - first:
+      213: -433471502540973187
+    second: mega_man_23
+  - first:
+      213: 5376511303242616777
+    second: mega_man_24
+  - first:
+      213: 6529978996278005273
+    second: mega_man_25
+  - first:
+      213: -9208103459244393044
+    second: mega_man_26
+  - first:
+      213: 8992771575919283689
+    second: mega_man_27
+  - first:
+      213: 7093505831976245165
+    second: mega_man_28
+  - first:
+      213: -9152397163128966916
+    second: mega_man_29
+  - first:
+      213: -6906020702141775531
+    second: mega_man_30
+  - first:
+      213: 1694837405499636172
+    second: mega_man_31
+  - first:
+      213: -7405401685701384536
+    second: mega_man_32
+  - first:
+      213: -8540211136838102562
+    second: mega_man_33
+  - first:
+      213: -973703777243011186
+    second: mega_man_34
+  - first:
+      213: -6710661534971466897
+    second: bullet
+  - first:
+      213: -5183390631059902252
+    second: mega_man_36
+  - first:
+      213: 4485584915725590317
+    second: mega_man_37
+  - first:
+      213: -4473392591249033265
+    second: mega_man_38
+  - first:
+      213: 4633433655660610532
+    second: mega_man_39
+  - first:
+      213: -890498151639857635
+    second: mega_man_40
+  - first:
+      213: 6295695808172785524
+    second: mega_man_41
+  - first:
+      213: -8174386924451563491
+    second: mega_man_42
+  - first:
+      213: -2633582481465228015
+    second: mega_man_43
+  - first:
+      213: -2094835159158303980
+    second: mega_man_44
+  - first:
+      213: -5238909170507233994
+    second: mega_man_45
+  - first:
+      213: 8387400497578941608
+    second: mega_man_46
+  - first:
+      213: -4102397367434726321
+    second: mega_man_47
+  - first:
+      213: 2975047604099299620
+    second: mega_man_48
+  - first:
+      213: -3488051034387398992
+    second: mega_man_49
+  - first:
+      213: -5272909540772756065
+    second: mega_man_50
+  - first:
+      213: 2728042173817451941
+    second: mega_man_51
+  - first:
+      213: -5313905932823698431
+    second: mega_man_52
+  - first:
+      213: -3954695138471074963
+    second: mega_man_53
+  - first:
+      213: 8718381758307888370
+    second: mega_man_54
+  - first:
+      213: 1065034278283116555
+    second: mega_man_55
+  - first:
+      213: -4295966174954056879
+    second: mega_man_56
+  - first:
+      213: -2562571198494355154
+    second: mega_man_57
+  - first:
+      213: 1987905487168656091
+    second: mega_man_58
+  - first:
+      213: -5056794851110773641
+    second: mega_man_59
+  - first:
+      213: 1155825624713656372
+    second: mega_man_60
+  - first:
+      213: -1353245816103981524
+    second: mega_man_61
+  - first:
+      213: -7482082962116283422
+    second: mega_man_62
+  - first:
+      213: 2802745119978236403
+    second: mega_man_63
+  - first:
+      213: 785562293274426434
+    second: mega_man_64
+  - first:
+      213: -8441305504644010800
+    second: mega_man_65
+  - first:
+      213: -3519946090103074320
+    second: mega_man_66
+  - first:
+      213: 7697266844254074772
+    second: mega_man_67
+  - first:
+      213: 6646441982614949272
+    second: mega_man_68
+  - first:
+      213: 8959912238187095562
+    second: mega_man_69
+  - first:
+      213: -3750919418170486635
+    second: mega_man_70
+  - first:
+      213: -7675658406024971675
+    second: mega_man_71
+  - first:
+      213: 9095398207993628039
+    second: mega_man_72
+  - first:
+      213: 8244237221844181714
+    second: mega_man_73
+  - first:
+      213: -2137973122091717003
+    second: mega_man_74
+  - first:
+      213: 5717433031897873364
+    second: mega_man_75
+  - first:
+      213: -2270425589539253725
+    second: mega_man_76
+  - first:
+      213: 5746759132397520509
+    second: mega_man_77
+  - first:
+      213: -7521709329445984065
+    second: mega_man_78
+  - first:
+      213: 7405430800620593398
+    second: mega_man_79
+  - first:
+      213: 628917847823595209
+    second: mega_man_80
+  - first:
+      213: -8684256392993195456
+    second: mega_man_81
+  - first:
+      213: 1703889785489874597
+    second: mega_man_82
+  - first:
+      213: -3549960010560160338
+    second: mega_man_83
+  - first:
+      213: -6048949504750792218
+    second: mega_man_84
+  - first:
+      213: 7595697912062922551
+    second: mega_man_85
+  - first:
+      213: -1272563250963467660
+    second: mega_man_86
+  - first:
+      213: 4125745327581372900
+    second: mega_man_87
+  - first:
+      213: -4125435256113752607
+    second: mega_man_88
+  - first:
+      213: 2269741155999281993
+    second: mega_man_89
+  - first:
+      213: 3598305777697492141
+    second: mega_man_90
+  - first:
+      213: 3266906540351725918
+    second: mega_man_91
+  - first:
+      213: 4574749124970565823
+    second: mega_man_92
+  - first:
+      213: -409796881128048871
+    second: mega_man_93
+  - first:
+      213: -6710661534971466897
+    second: mega_man_35
+  - first:
+      213: 1728229871380641492
+    second: mega_man_93
+  - first:
+      213: 1240229167408510750
+    second: mega_man_94
+  - first:
+      213: -9010592112192821577
+    second: mega_man_95
+  - first:
+      213: 4263221261699565443
+    second: mega_man_96
+  - first:
+      213: -3388947270506862526
+    second: mega_man_97
+  - first:
+      213: 7166849979603729270
+    second: mega_man_98
+  - first:
+      213: 5525214158442728354
+    second: mega_man_99
+  - first:
+      213: 319709479303492140
+    second: mega_man_100
+  - first:
+      213: 1675884643907577457
+    second: mega_man_101
+  - first:
+      213: 8380019295461665875
+    second: mega_man_102
+  - first:
+      213: 5561675301528207185
+    second: mega_man_35
+  - first:
+      213: -1751891394176050699
+    second: mega_man_94
+  - first:
+      213: 466467004672458883
+    second: mega_man_95
+  - first:
+      213: 8422263803669844678
+    second: mega_man_96
+  - first:
+      213: -364513601759694325
+    second: mega_man_97
+  - first:
+      213: -6008104244620883786
+    second: mega_man_98
+  - first:
+      213: 8565238252155363551
+    second: mega_man_99
+  - first:
+      213: -8016180988351596316
+    second: mega_man_100
+  - first:
+      213: 7610557878454773676
+    second: mega_man_101
+  - first:
+      213: -6196788290390057173
+    second: mega_man_102
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mega_man_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 132
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8eb3c89a10a22870800000000000000
+      internalID: 8656657469852073612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 132
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0a36dba72817970800000000000000
+      internalID: 8750919014632628429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 132
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8866673076d06700800000000000000
+      internalID: 531660533483858061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 132
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5eed27887cbc370800000000000000
+      internalID: 8343982123490665982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_4
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 132
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc850286a7617f20800000000000000
+      internalID: 3418627556994551029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_5
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 132
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c58627efb689030800000000000000
+      internalID: 3501667450865867812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_6
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 132
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212b334af3abbc3f0800000000000000
+      internalID: -879404519720242670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 134
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9485eb031c49beb60800000000000000
+      internalID: 7776472739052673097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_8
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 135
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a26280832186bb0800000000000000
+      internalID: -4942680559174931921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_9
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 134
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a5fe2baa2143930800000000000000
+      internalID: 4121940083306617503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_10
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 136
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462df827370649050800000000000000
+      internalID: 5806371868546945636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_11
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 132
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e568c25cd3806160800000000000000
+      internalID: 7016753201748141540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_12
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 132
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cd82780f8a18360800000000000000
+      internalID: 7170197832763759623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_13
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 132
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9c095eb0ba331f0800000000000000
+      internalID: -1066320619172214291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_14
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 132
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43444dd1c7527e560800000000000000
+      internalID: 7342878932457505844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_15
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 134
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e489efae7ec2db80800000000000000
+      internalID: -8371401713815812892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_16
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 135
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc46c4ba10c023290800000000000000
+      internalID: -7912248394028129073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_17
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 132
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701629cecda909770800000000000000
+      internalID: 8615556360812257543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_18
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 132
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0c25a1d2b1c2ef0800000000000000
+      internalID: -131700408571477798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_19
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 132
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b365a2510958dbb10800000000000000
+      internalID: 1998900663499249211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_20
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 132
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbeb633e1738a700800000000000000
+      internalID: 551751557204143062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_21
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 134
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1690df15691cce570800000000000000
+      internalID: 8497379448306076001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_22
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 135
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a119187be6acfcb40800000000000000
+      internalID: 5462807449897636122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 90
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b5ace07fffbf9f0800000000000000
+      internalID: -433471502540973187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_24
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 88
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf06a85b843d9a40800000000000000
+      internalID: 5376511303242616777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_25
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 88
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e89efbc452f9a50800000000000000
+      internalID: 6529978996278005273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_26
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 88
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad31b0c0be363080800000000000000
+      internalID: -9208103459244393044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_27
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 88
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed06e04a1ebccc70800000000000000
+      internalID: 8992771575919283689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_28
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 88
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da71b1f98f1317260800000000000000
+      internalID: 7093505831976245165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_29
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 88
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0b76885472cf080800000000000000
+      internalID: -9152397163128966916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_30
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 90
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5518855d2c2e820a0800000000000000
+      internalID: -6906020702141775531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_31
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 88
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9b9d204a5458710800000000000000
+      internalID: 1694837405499636172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_32
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 88
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6a0b0076aba3990800000000000000
+      internalID: -7405401685701384536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_33
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 88
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed11ee118331b7980800000000000000
+      internalID: -8540211136838102562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_34
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 90
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8769f0d295bc72f0800000000000000
+      internalID: -973703777243011186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_36
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 104
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0369f0fa5e018b0800000000000000
+      internalID: -5183390631059902252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_37
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 106
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f9ca717bfff3e30800000000000000
+      internalID: 4485584915725590317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_38
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 87
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7bcb9a3215be1c0800000000000000
+      internalID: -4473392591249033265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_39
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 87
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e38dff5c534d4040800000000000000
+      internalID: 4633433655660610532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_40
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d164d5e26a054a3f0800000000000000
+      internalID: -890498151639857635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_41
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 95
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ffd044bfdce5750800000000000000
+      internalID: 6295695808172785524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_42
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 97
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d187777e66ebe8e80800000000000000
+      internalID: -8174386924451563491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_43
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 93
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115c299bfa2a37bd0800000000000000
+      internalID: -2633582481465228015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_44
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 94
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413de5b8586ade2e0800000000000000
+      internalID: -2094835159158303980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_45
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 97
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6354169cdd7ab47b0800000000000000
+      internalID: -5238909170507233994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_46
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 86
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac902f6058066470800000000000000
+      internalID: 8387400497578941608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_47
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 78
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f443e8a645b5117c0800000000000000
+      internalID: -4102397367434726321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_48
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 78
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4293730980e794920800000000000000
+      internalID: 2975047604099299620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_49
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 78
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0beb7e09014f79fc0800000000000000
+      internalID: -3488051034387398992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_50
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 78
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95c871b5bcd2d6b0800000000000000
+      internalID: -5272909540772756065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_51
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 78
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a57cae37e3fbd520800000000000000
+      internalID: 2728042173817451941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_52
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 77
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104e33855b63146b0800000000000000
+      internalID: -5313905932823698431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_53
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 77
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63a77479b91e19c0800000000000000
+      internalID: -3954695138471074963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_54
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 78
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcef28640aedf870800000000000000
+      internalID: 8718381758307888370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_55
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 44
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b000ea68803c7ce00800000000000000
+      internalID: 1065034278283116555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_56
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 44
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15315ce5689a164c0800000000000000
+      internalID: -4295966174954056879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_57
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 44
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21d812721bef6cd0800000000000000
+      internalID: -2562571198494355154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_58
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 44
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2dcb91285769b10800000000000000
+      internalID: 1987905487168656091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_59
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 46
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c948dffd7a2d9b0800000000000000
+      internalID: -5056794851110773641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_60
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 47
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438f95728415a0010800000000000000
+      internalID: 1155825624713656372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_61
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 44
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ea65d991e483de0800000000000000
+      internalID: -1353245816103981524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_62
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 44
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e37e0f003d4a2890800000000000000
+      internalID: -7482082962116283422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_63
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 44
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9234846d955e620800000000000000
+      internalID: 2802745119978236403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_64
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 44
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c309f5eb0e6ea00800000000000000
+      internalID: 785562293274426434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_65
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 46
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dce4231e557ada80800000000000000
+      internalID: -8441305504644010800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_66
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 47
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f191e63ea3a62fc0800000000000000
+      internalID: -3519946090103074320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_67
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 60
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497f729b96f22da60800000000000000
+      internalID: 7697266844254074772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_68
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 46
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dc102d4c7ec3c50800000000000000
+      internalID: 6646441982614949272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_69
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 46
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0621df75b0085c70800000000000000
+      internalID: 8959912238187095562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_70
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 44
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59055d299ae02fbc0800000000000000
+      internalID: -3750919418170486635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_71
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 44
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56af3abd8559a7590800000000000000
+      internalID: -7675658406024971675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_72
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 44
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7854f2e0b78593e70800000000000000
+      internalID: 9095398207993628039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_73
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 44
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2631cc21a696270800000000000000
+      internalID: 8244237221844181714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_74
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 17
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ee36ed5c46452e0800000000000000
+      internalID: -2137973122091717003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_75
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 17
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db7b5ddc07685f40800000000000000
+      internalID: 5717433031897873364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_76
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 41
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3225e8e94f3dd70e0800000000000000
+      internalID: -2270425589539253725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_77
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 17
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d764948bbf690cf40800000000000000
+      internalID: 5746759132397520509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_78
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 19
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb861a277358d9790800000000000000
+      internalID: -7521709329445984065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_79
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 15
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f02ab7d31065c660800000000000000
+      internalID: 7405430800620593398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_80
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 33
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6bd60537d5ab800800000000000000
+      internalID: 628917847823595209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_81
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 33
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ab93d52d25b7780800000000000000
+      internalID: -8684256392993195456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_82
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 33
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae5a887bbe65a710800000000000000
+      internalID: 1703889785489874597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_83
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead38bbcd220cbec0800000000000000
+      internalID: -3549960010560160338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_84
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1dd016970dd0ca0800000000000000
+      internalID: -6048949504750792218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_85
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 2
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fcfadd107596960800000000000000
+      internalID: 7595697912062922551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_86
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 2
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4723b103772f65ee0800000000000000
+      internalID: -1272563250963467660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_87
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 0
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1273c2487914930800000000000000
+      internalID: 4125745327581372900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e59777fd728fb6c0800000000000000
+      internalID: -4125435256113752607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_89
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 2
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943fb674e8dbf7f10800000000000000
+      internalID: 2269741155999281993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_90
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 19
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac05e84a00cfe130800000000000000
+      internalID: 3598305777697492141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_91
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 19
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51a01c8032665d20800000000000000
+      internalID: 3266906540351725918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_92
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 15
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb056625716cc7f30800000000000000
+      internalID: 4574749124970565823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_93
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 15
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6bcd559e7ebf710800000000000000
+      internalID: 1728229871380641492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_35
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 101
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ff6af383a0f2d40800000000000000
+      internalID: 5561675301528207185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_94
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 17
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f992151f0800b7e0800000000000000
+      internalID: -1751891394176050699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_95
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 17
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38041f0f449397600800000000000000
+      internalID: 466467004672458883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_96
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 17
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c21f5e6e44e1e470800000000000000
+      internalID: 8422263803669844678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_97
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 17
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02b05b7fccf0faf0800000000000000
+      internalID: -364513601759694325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_98
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 17
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b80bd5950dee9ca0800000000000000
+      internalID: -6008104244620883786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_99
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 17
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0ee4c4fc6ddd670800000000000000
+      internalID: 8565238252155363551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_100
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 5
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e83016dcddc0c090800000000000000
+      internalID: -8016180988351596316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_101
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 5
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7e8d761122e9960800000000000000
+      internalID: 7610557878454773676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega_man_102
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 5
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f1003c1e5900aa0800000000000000
+      internalID: -6196788290390057173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
