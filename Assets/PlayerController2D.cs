@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerController2D : MonoBehaviour
 {
+    public List<string> items;
+
     Animator animator;
     Rigidbody2D rb2d;
     SpriteRenderer spriteRenderer;
@@ -47,6 +49,7 @@ public class PlayerController2D : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        items = new List<string>();
         animator = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -84,10 +87,6 @@ public class PlayerController2D : MonoBehaviour
             GameObject b = Instantiate(bullet);
             b.GetComponent<Player_bullet>().StartShoot(faceLeft);
             b.transform.position = BulletSpawn.transform.position;
-            /*if (!isGrounded)
-                b.transform.rotation = Quaternion.Euler(0, 1, 0);*/
-
-            //MovebulletSpawn();
 
             Invoke("ResetShoot", shootDelay);
         }
@@ -107,12 +106,6 @@ public class PlayerController2D : MonoBehaviour
     {
         isRunShooting = false;
     }
-
-    /*void MovebulletSpawn()
-	{
-        if (!isGrounded)
-            b.rotation = Quaternion.Euler(0, 0.0528f, 0);
-    } */
 
     // Update is called once per frame
     private void FixedUpdate()
@@ -138,19 +131,6 @@ public class PlayerController2D : MonoBehaviour
 			{
                 animator.Play("player_run");
 			}
-          /*  if (isGrounded && isShooting && rb2d.velocity.x != 0 && !isRunShooting)
-            {
-                animator.Play("Player_walk_&_shoot");
-                isRunShooting = true;
-                Invoke("SetBoolBack", runShootdelay);
-            }*/
-            /*  if (isGrounded && isShooting && rb2d.velocity.x != 0)
-              {
-                  animator.Play("Player_walk_&_shoot");
-                  //isRunShooting = true;
-                //  Invoke("SetBoolBack", runShootdelay);
-              } */
-            //Invoke("SetBoolBack", runShootdelay);
             transform.localScale = new Vector3(1, 1, 1);
             faceLeft = false;
         }
@@ -159,13 +139,6 @@ public class PlayerController2D : MonoBehaviour
             rb2d.velocity = new Vector2(-runSpeed, rb2d.velocity.y);
             if (isGrounded && !isShooting && rb2d.velocity.x != 0 && !isRunShooting)
                 animator.Play("player_run");
-        /*    if (isGrounded && isShooting && rb2d.velocity.x != 0 && !isRunShooting)
-			{
-                animator.Play("Player_walk_&_shoot");
-                isRunShooting = true;
-                Invoke("SetBoolBack", runShootdelay);
-            } */
-            //Invoke("SetBoolBack", runShootdelay);
             transform.localScale = new Vector3(-1, 1, 1);
             faceLeft = true;
         }
@@ -174,6 +147,14 @@ public class PlayerController2D : MonoBehaviour
             if (isGrounded && !isShooting && rb2d.velocity.x == 0)
                 animator.Play("player_idle");
             rb2d.velocity = new Vector2(0, rb2d.velocity.y);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Pick_up"))
+        {
+            Destroy(collision.gameObject);
         }
     }
 }
