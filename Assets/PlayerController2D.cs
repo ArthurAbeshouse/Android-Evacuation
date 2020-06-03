@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerController2D : MonoBehaviour
 {
-    public List<string> items;
+   // public List<string> items;
+   // public PlayerHealthbar bars;
 
     Animator animator;
     Rigidbody2D rb2d;
@@ -14,10 +15,17 @@ public class PlayerController2D : MonoBehaviour
     private bool isShooting;
     private bool faceLeft;
 
+    public int HealthBonus_big = 10;
+
     //public bool isMove;
 
     private bool isRunShooting;
     // private bool walkR;
+
+    [Range(0, 28)]
+    public int curHealth;
+
+    public int maxHealth = 28;
 
     [SerializeField]
     GameObject bullet;
@@ -49,10 +57,11 @@ public class PlayerController2D : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        items = new List<string>();
+        //items = new List<string>();
         animator = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        curHealth = maxHealth;
     }
 
     void Update()
@@ -64,8 +73,11 @@ public class PlayerController2D : MonoBehaviour
             animator.Play("player_jump");
             //MovebulletSpawn();
         }
-         if (Input.GetKeyDown("e") && countOfExistingBullets < 3 && Time.timeScale == 1)
-        //if (Input.GetKeyDown("e"))
+        if (Input.GetKeyDown("h"))
+        {
+            curHealth -= 1;
+        }
+        if (Input.GetKeyDown("e") && countOfExistingBullets < 3 && Time.timeScale == 1)
         {
             if (isShooting)
                 return;
@@ -89,6 +101,15 @@ public class PlayerController2D : MonoBehaviour
             b.transform.position = BulletSpawn.transform.position;
 
             Invoke("ResetShoot", shootDelay);
+        }
+        if(curHealth > maxHealth)
+        {
+            curHealth = maxHealth;
+        }
+
+        if (curHealth <= 0)
+        {
+            Dead ();
         }
     }
 
@@ -152,9 +173,20 @@ public class PlayerController2D : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Pick_up"))
+        if(collision.CompareTag("Pick_up") || collision.CompareTag("Big Health"))
         {
             Destroy(collision.gameObject);
+            if(collision.CompareTag("Big Health"))
+            {
+                if (curHealth < maxHealth)
+                    curHealth = curHealth + HealthBonus_big;
+            }
         }
+
+    }
+
+    void Dead()
+    {
+        Application.LoadLevel(Application.loadedLevel);
     }
 }
