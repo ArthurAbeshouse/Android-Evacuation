@@ -6,6 +6,7 @@ TagManager:
   tags:
   - bullet
   - thing
+  - Pick_up
   layers:
   - Default
   - TransparentFX
