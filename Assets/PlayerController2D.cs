@@ -10,6 +10,7 @@ public class PlayerController2D : MonoBehaviour
     Animator animator;
     Rigidbody2D rb2d;
     SpriteRenderer spriteRenderer;
+    Collider2D playercolider;
     private Object bulletRef;
     bool isGrounded;
     private bool isShooting;
@@ -54,6 +55,8 @@ public class PlayerController2D : MonoBehaviour
     [SerializeField]
     private float shootDelay = 0f;
 
+    bool pingas = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -61,6 +64,8 @@ public class PlayerController2D : MonoBehaviour
         animator = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        playercolider = GetComponent<Collider2D>();
+        playercolider.isTrigger = false;
         curHealth = maxHealth;
     }
 
@@ -77,7 +82,7 @@ public class PlayerController2D : MonoBehaviour
         {
             curHealth -= 1;
         }
-        if (Input.GetKeyDown("e") && countOfExistingBullets < 3 && Time.timeScale == 1)
+        if (Input.GetKeyDown("e") && countOfExistingBullets < 5 && Time.timeScale == 1)
         {
             if (isShooting)
                 return;
@@ -182,8 +187,38 @@ public class PlayerController2D : MonoBehaviour
                     curHealth = curHealth + HealthBonus_big;
             }
         }
+        Physics2D.IgnoreLayerCollision(11, 12, true);
+     /*   if(collision.CompareTag("Enemy"))
+        {
+            //playercolider.isTrigger = true;
+            curHealth--;
+        }*/
 
     }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Enemy"))
+        {
+            //playercolider.isTrigger = true;
+            curHealth -= 2;
+        }
+    }
+    /* private void OnCollisionEnter2D(Collision2D collision)
+     {
+         if (collision.gameObject.tag.Equals("Enemy"))
+         {
+             if (pingas)
+                 curHealth -= 2;
+         }
+     }*/
+    /*private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Enemy"))
+        {
+            playercolider.isTrigger = false;
+           // curHealth -= 2;
+        }
+    }*/
 
     void Dead()
     {
