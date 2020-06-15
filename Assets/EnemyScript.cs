@@ -6,9 +6,12 @@ public class EnemyScript : MonoBehaviour
 {
     Animator animator;
     Rigidbody2D rb2d;
-    //Rigidbody2D rb2d_B;
-    private int health = 3;
-  //  public float range;
+
+    [SerializeField]
+    int health = 3;
+   
+    [SerializeField]
+    public static int damage = 4;
 
     [SerializeField]
     GameObject en_Bullet;
@@ -37,9 +40,6 @@ public class EnemyScript : MonoBehaviour
     [SerializeField]
     GameObject bigHealth;
 
-   /* [SerializeField]
-    GameObject Player_b;*/
-
     [SerializeField]
     private float shootDelay = 0f;
 
@@ -52,7 +52,11 @@ public class EnemyScript : MonoBehaviour
 
     private bool awake;
 
-    private bool protection;
+    public bool protection;
+
+   // private bool Dead = true;
+
+    //private bool Onscreen;
 
     // Start is called before the first frame update
     void Start()
@@ -60,16 +64,14 @@ public class EnemyScript : MonoBehaviour
         SR = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
-    //    rb2d_B = en_Bullet.GetComponent<Rigidbody2D>();
         matWhite = Resources.Load("WhiteFlash", typeof(Material)) as Material;
         matDefault = SR.material;
         protection = true;
-       // rot = transform.localEulerAngles;
+        gameObject.SetActive(false);
     }
 
-    void Update()
+    public void Update()
     {
-        //distance to player
         float distToPlayer = Vector2.Distance(transform.position, player.position);
 
         if (distToPlayer < Wakeup)
@@ -95,9 +97,7 @@ public class EnemyScript : MonoBehaviour
                 protection = false;
                 Invoke("ResetAnimation", animDelay);
             }
-            //Invoke("ResetAnimation", animDelay);
             isShooting = true;
-            //enemy_awake();
             GameObject en_B = Instantiate(en_Bullet);
             GameObject en_B2 = Instantiate(en_Bullet);
             GameObject en_B3 = Instantiate(en_Bullet);
@@ -107,25 +107,21 @@ public class EnemyScript : MonoBehaviour
             en_B.GetComponent<Enemy_bullet>().StartShoot(faceLeft);
             en_B2.GetComponent<Enemy_bullet>().StartShoot2(faceLeft);
             en_B3.GetComponent<Enemy_bullet>().StartShoot3(faceLeft);
-            // rb2d_B.AddForce(Quaternion.AngleAxis(direction, Vector2));
             Invoke("ResetShoot", shootDelay);
         }
         else
         {
-            //enemy_sleep();
             animator.Play("enemy_backtobed");
-            //awake = false;
         }
-    }
-
-    /*public void Harm(Player_bullet player_b)
-    {
         if (protection)
         {
-            player_b.Deflect();
             return;
         }
-    }*/
+        else
+        {
+            return;
+        }
+    }
 
     void ResetShoot()
     {
@@ -139,27 +135,36 @@ public class EnemyScript : MonoBehaviour
         protection = true;
     }
 
+    /*public void DamageinTake()
+    {
+        health -= amount;
+    }*/
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        // Rigidbody2D other = collision.collider.attachedRigidbody;
+       // collision.gameObject.GetComponent<Player_bullet>();
         if (collision.CompareTag("bullet"))
         {
            // Destroy(collision.gameObject);
             if (protection)
             {
-                health += 0;
+               // health += 0;
+               // Player_bul = collision.CompareTag("bullet").GetComponent<Player_bullet>().Deflect(protection);
+                //other.gameObject.GetComponent<Player_bullet>.Deflect();
                 SR.material = matDefault;
+
                 //Player_b.GetComponent<Player_bullet>().Deflect(protection);
-                //Harm(player_b);
             }
             else
             {
                 Destroy(collision.gameObject);
-                health--;
+                health -= Player_bullet.damage;
+                //DamageinTake();
+                //health--;
                 SR.material = matWhite;
             }
             float rand = Random.value;
-         //   SR.material = matWhite;
-           // SR.enabled = false;
 
             if (health <= 0)
             {
@@ -177,7 +182,7 @@ public class EnemyScript : MonoBehaviour
                 }
                 else // Items spawn 30% of the time
                 {
-
+                    // do nothing
                 }
                 Die();
             }

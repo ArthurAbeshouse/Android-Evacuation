@@ -11,7 +11,7 @@ public class Enemy_bullet : MonoBehaviour
     float direction;
 
     [SerializeField]
-    int damage;
+    public static int damage = 2;
 
     public void StartShoot(bool faceLeft)
     {

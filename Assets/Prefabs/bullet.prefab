@@ -136,7 +136,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  damage: 1
+  Enemy_met: {fileID: 3791087465123182073, guid: 258cc0967c5fad6418cd879a23f6992b,
+    type: 3}
 --- !u!95 &2048784864044388567
 Animator:
   serializedVersion: 3

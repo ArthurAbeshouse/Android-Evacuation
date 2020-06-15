@@ -30,6 +30,7 @@ public class Camera_Follow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         //cameras current position
         Vector3 startPos = transform.position;
 

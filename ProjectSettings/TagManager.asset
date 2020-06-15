@@ -9,6 +9,8 @@ TagManager:
   - Pick_up
   - Big Health
   - Enemy
+  - Enemy bullet
+  - Metool
   layers:
   - Default
   - TransparentFX
@@ -23,8 +25,8 @@ TagManager:
   - Big Health
   - Player
   - Enemy
-  - 
-  - 
+  - Metool
+  - Wall
   - 
   - 
   - 
