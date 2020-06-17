@@ -125,7 +125,7 @@ public class PlayerController2D : MonoBehaviour
         {
             Dead();
         }
-        if (Input.GetKeyDown("e") && countOfExistingBullets < 5 && Time.timeScale == 1 && !isHurt)
+        if (Input.GetKeyDown("k") && countOfExistingBullets < 5 && Time.timeScale == 1 && !isHurt)
         {
             if (isShooting)
                 return;
@@ -252,6 +252,34 @@ public class PlayerController2D : MonoBehaviour
             }
         }
         Physics2D.IgnoreLayerCollision(11, 12, true);
+        Physics2D.IgnoreLayerCollision(11, 15, true);
+        /*   if(collision.CompareTag("Enemy"))
+           {
+               //playercolider.isTrigger = true;
+               curHealth--;
+           }*/
+
+    }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == 13)
+        {
+            isHurt = true;
+            if (ImmunityDuration <= 0)
+            {
+                curHealth -= EnemyScript.Contact_Damage;
+                if (curHealth <= 0)
+                {
+                    Dead();
+                }
+                else
+                {
+                    ImmunityDuration = Immunity;
+                    spriteRenderer.enabled = false;
+                    BlinkingDuration = Blinking;
+                }
+            }
+        }
         if (collision.CompareTag("Enemy bullet"))
         {
             isHurt = true;
@@ -272,21 +300,30 @@ public class PlayerController2D : MonoBehaviour
             //curHealth -= Enemy_bullet.damage;
             //animator.Play("player_hurt");
         }
-     /*   if(collision.CompareTag("Enemy"))
-        {
-            //playercolider.isTrigger = true;
-            curHealth--;
-        }*/
-
-    }
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.gameObject.layer == 13)
+        if (collision.CompareTag("Boss_bullet"))
         {
             isHurt = true;
             if (ImmunityDuration <= 0)
             {
-                curHealth -= Enemy_bullet.damage;
+                curHealth -= B_Bullet.damage;
+                if (curHealth <= 0)
+                {
+                    Dead();
+                }
+                else
+                {
+                    ImmunityDuration = Immunity;
+                    spriteRenderer.enabled = false;
+                    BlinkingDuration = Blinking;
+                }
+            }
+        }
+        if (collision.gameObject.layer == 16)
+        {
+            isHurt = true;
+            if (ImmunityDuration <= 0)
+            {
+                curHealth -= BossScript.Contact_Damage;
                 if (curHealth <= 0)
                 {
                     Dead();
@@ -300,23 +337,6 @@ public class PlayerController2D : MonoBehaviour
             }
         }
     }
-
-    /* private void OnCollisionEnter2D(Collision2D collision)
-     {
-         if (collision.gameObject.tag.Equals("Enemy"))
-         {
-             if (pingas)
-                 curHealth -= 2;
-         }
-     }*/
-    /*private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Enemy"))
-        {
-            playercolider.isTrigger = false;
-           // curHealth -= 2;
-        }
-    }*/
 
     void Dead()
     {

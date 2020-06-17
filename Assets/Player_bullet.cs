@@ -36,15 +36,21 @@ public class Player_bullet : MonoBehaviour
     {
         Rigidbody2D rb2d = GetComponent<Rigidbody2D>();
         bool_true = Enemy_met.GetComponent<EnemyScript>();
+
        // Enemy_health = Ememy_met.GetComponent<EnemyScript>();
-        // if (bool_true.protection)
-        //collision.gameObject.
+       // if (bool_true.protection)
+       //collision.gameObject.
         if (!bool_true.protection && collision.CompareTag("Enemy"))
         {
            // damage = 0;
             rb2d.velocity = new Vector2(-rb2d.velocity.x, Mathf.Abs(rb2d.velocity.x));
             //Debug.Log("it went through");
         }
+       /* if (collision.CompareTag("Boss_hitpoint"))
+        {
+            BossScript.health -= damage;
+            Destroy(gameObject);
+        } */
     }
     void OnBecameInvisible()
     {

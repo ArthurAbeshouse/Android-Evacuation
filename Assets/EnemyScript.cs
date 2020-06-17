@@ -11,7 +11,7 @@ public class EnemyScript : MonoBehaviour
     int health = 3;
    
     [SerializeField]
-    public static int damage = 4;
+    public static int Contact_Damage = 4;
 
     [SerializeField]
     GameObject en_Bullet;
@@ -112,14 +112,6 @@ public class EnemyScript : MonoBehaviour
         else
         {
             animator.Play("enemy_backtobed");
-        }
-        if (protection)
-        {
-            return;
-        }
-        else
-        {
-            return;
         }
     }
 

@@ -11,6 +11,9 @@ TagManager:
   - Enemy
   - Enemy bullet
   - Metool
+  - Boss
+  - Boss_bullet
+  - Boss_hitpoint
   layers:
   - Default
   - TransparentFX
@@ -27,8 +30,8 @@ TagManager:
   - Enemy
   - Metool
   - Wall
-  - 
-  - 
+  - Boss
+  - Doc
   - 
   - 
   - 

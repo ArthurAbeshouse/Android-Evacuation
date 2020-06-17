@@ -170,7 +170,7 @@ MonoBehaviour:
   en_Bullet: {fileID: 1918518083511875242, guid: 4055ade708e23484e9cb9a962cf4d1e0,
     type: 3}
   BulletSpawn: {fileID: 3791087466006493908}
-  player: {fileID: 0}
+  player: {fileID: 8814918984353791897, guid: ac163c96dc1139440ad26feffbc59eac, type: 3}
   Wakeup: 0.7
   Explode: {fileID: 7883676473765328222, guid: d1d83f71d65242548b23fd8fc3e2e7d3, type: 3}
   smallHealth: {fileID: 2836649175017534776, guid: 2b9a849a0511348d6a86d29da9ec8616,
