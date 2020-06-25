@@ -14,6 +14,8 @@ TagManager:
   - Boss
   - Boss_bullet
   - Boss_hitpoint
+  - Player Manager
+  - CheckPoint
   layers:
   - Default
   - TransparentFX

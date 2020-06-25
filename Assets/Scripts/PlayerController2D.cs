@@ -14,11 +14,15 @@ public class PlayerController2D : MonoBehaviour
     Collider2D playercolider;
     private Object bulletRef;
     bool isGrounded;
+    bool wasGrounded;
     private bool isShooting;
     private bool faceLeft;
     private bool isHurt;
+  //  public Vector2 RespawnPoint;
 
-    public int HealthBonus_big = 10;
+    int HealthBonus_big = 10;
+
+    int HealthBonus_small = 2;
 
     //public bool isMove;
 
@@ -61,6 +65,11 @@ public class PlayerController2D : MonoBehaviour
     [SerializeField]
     private float shootDelay;
 
+    AudioSource Player_sounds;
+
+    [SerializeField]
+    AudioClip[] Player_snds_lib;
+
     // How long the player has to suffer
     [SerializeField]
     private float HurtDuration;
@@ -79,19 +88,16 @@ public class PlayerController2D : MonoBehaviour
     private float ImmunityDuration;
 
 
-
-    //bool pingas = true;
-
     // Start is called before the first frame update
     void Start()
     {
-        //items = new List<string>();
         animator = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         playercolider = GetComponent<Collider2D>();
         playercolider.isTrigger = false;
         curHealth = maxHealth;
+        Player_sounds = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -119,11 +125,10 @@ public class PlayerController2D : MonoBehaviour
         {
             rb2d.velocity = Vector2.up * jumpSpeed;
             animator.Play("player_jump");
-            //MovebulletSpawn();
         }
         if (Input.GetKeyDown("h"))
         {
-            Dead();
+            gameObject.GetComponent<PlayerPos>().LoadScene();
         }
         if (Input.GetKeyDown("k") && countOfExistingBullets < 5 && Time.timeScale == 1 && !isHurt)
         {
@@ -143,6 +148,12 @@ public class PlayerController2D : MonoBehaviour
 
             isShooting = true;
 
+            if (isShooting)
+            {
+                Player_sounds.clip = Player_snds_lib[1];
+                Player_sounds.Play();
+            }
+
             //Shoot bullet
             GameObject b = Instantiate(bullet);
             b.GetComponent<Player_bullet>().StartShoot(faceLeft);
@@ -155,6 +166,12 @@ public class PlayerController2D : MonoBehaviour
             curHealth = maxHealth;
         }
 
+        if (!wasGrounded && isGrounded)
+        {
+            Player_sounds.clip = Player_snds_lib[0];
+            Player_sounds.Play();
+        }
+
         if (isHurt)
         {
             animator.Play("player_hurt");
@@ -164,11 +181,7 @@ public class PlayerController2D : MonoBehaviour
                 rb2d.MovePosition(transform.position - transform.right * Knockback);
             Invoke("ResetHurt", HurtDuration);
         }
-
-  /*      if (curHealth <= 0)
-        {
-            Dead ();
-        } */
+        wasGrounded = isGrounded;
     }
 
     void ResetHurt()
@@ -245,101 +258,62 @@ public class PlayerController2D : MonoBehaviour
         if(collision.CompareTag("Pick_up") || collision.CompareTag("Big Health"))
         {
             Destroy(collision.gameObject);
-            if(collision.CompareTag("Big Health"))
+            Player_sounds.clip = Player_snds_lib[3];
+            Player_sounds.Play();
+            if (collision.CompareTag("Big Health"))
             {
                 if (curHealth < maxHealth)
                     curHealth = curHealth + HealthBonus_big;
             }
+            if (collision.CompareTag("Pick_up"))
+            {
+                if (curHealth < maxHealth)
+                    curHealth = curHealth + HealthBonus_small;
+            }
         }
         Physics2D.IgnoreLayerCollision(11, 12, true);
         Physics2D.IgnoreLayerCollision(11, 15, true);
-        /*   if(collision.CompareTag("Enemy"))
-           {
-               //playercolider.isTrigger = true;
-               curHealth--;
-           }*/
 
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.layer == 13)
         {
-            isHurt = true;
-            if (ImmunityDuration <= 0)
-            {
-                curHealth -= EnemyScript.Contact_Damage;
-                if (curHealth <= 0)
-                {
-                    Dead();
-                }
-                else
-                {
-                    ImmunityDuration = Immunity;
-                    spriteRenderer.enabled = false;
-                    BlinkingDuration = Blinking;
-                }
-            }
+            HandleImmunity(EnemyScript.Contact_Damage);
+            //curHealth -= EnemyScript.Contact_Damage;
         }
         if (collision.CompareTag("Enemy bullet"))
         {
-            isHurt = true;
-            if (ImmunityDuration <= 0)
-            {
-                curHealth -= Enemy_bullet.damage;
-                if (curHealth <= 0)
-                {
-                    Dead();
-                }
-                else
-                {
-                    ImmunityDuration = Immunity;
-                    spriteRenderer.enabled = false;
-                    BlinkingDuration = Blinking;
-                }
-            }
-            //curHealth -= Enemy_bullet.damage;
-            //animator.Play("player_hurt");
+            HandleImmunity(Enemy_bullet.damage);
         }
         if (collision.CompareTag("Boss_bullet"))
         {
-            isHurt = true;
-            if (ImmunityDuration <= 0)
-            {
-                curHealth -= B_Bullet.damage;
-                if (curHealth <= 0)
-                {
-                    Dead();
-                }
-                else
-                {
-                    ImmunityDuration = Immunity;
-                    spriteRenderer.enabled = false;
-                    BlinkingDuration = Blinking;
-                }
-            }
+            HandleImmunity(B_Bullet.damage);
         }
         if (collision.gameObject.layer == 16)
         {
-            isHurt = true;
-            if (ImmunityDuration <= 0)
+            HandleImmunity(BossScript.Contact_Damage);
+        }
+    }
+    private void HandleImmunity(int dmg)
+    {
+        isHurt = true;
+        if (ImmunityDuration <= 0)
+        {
+            curHealth -= dmg;
+            Player_sounds.clip = Player_snds_lib[2];
+            Player_sounds.Play();
+            if (curHealth <= 0)
             {
-                curHealth -= BossScript.Contact_Damage;
-                if (curHealth <= 0)
-                {
-                    Dead();
-                }
-                else
-                {
-                    ImmunityDuration = Immunity;
-                    spriteRenderer.enabled = false;
-                    BlinkingDuration = Blinking;
-                }
+                gameObject.GetComponent<PlayerPos>().LoadScene();
+            }
+            else
+            {
+                ImmunityDuration = Immunity;
+                spriteRenderer.enabled = false;
+                BlinkingDuration = Blinking;
             }
         }
     }
 
-    void Dead()
-    {
-        Application.LoadLevel(Application.loadedLevel);
-    }
 }

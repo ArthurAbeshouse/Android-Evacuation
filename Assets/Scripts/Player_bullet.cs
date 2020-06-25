@@ -18,6 +18,11 @@ public class Player_bullet : MonoBehaviour
 
     EnemyScript bool_true;
 
+    AudioSource Player_bullet_sounds;
+
+    [SerializeField]
+    AudioClip[] Player_bullet_snds_lib;
+
     public void StartShoot(bool faceLeft)
 	{
         Rigidbody2D rb2d = GetComponent<Rigidbody2D>();
@@ -36,21 +41,19 @@ public class Player_bullet : MonoBehaviour
     {
         Rigidbody2D rb2d = GetComponent<Rigidbody2D>();
         bool_true = Enemy_met.GetComponent<EnemyScript>();
+        Player_bullet_sounds = GetComponent<AudioSource>();
 
-       // Enemy_health = Ememy_met.GetComponent<EnemyScript>();
-       // if (bool_true.protection)
-       //collision.gameObject.
+        // Enemy_health = Ememy_met.GetComponent<EnemyScript>();
+        // if (bool_true.protection)
+        //collision.gameObject.
         if (!bool_true.protection && collision.CompareTag("Enemy"))
         {
-           // damage = 0;
+            // damage = 0;
             rb2d.velocity = new Vector2(-rb2d.velocity.x, Mathf.Abs(rb2d.velocity.x));
+            Player_bullet_sounds.clip = Player_bullet_snds_lib[0];
+            Player_bullet_sounds.Play();
             //Debug.Log("it went through");
         }
-       /* if (collision.CompareTag("Boss_hitpoint"))
-        {
-            BossScript.health -= damage;
-            Destroy(gameObject);
-        } */
     }
     void OnBecameInvisible()
     {

@@ -191,6 +191,9 @@ TextureImporter:
   - first:
       213: -192863866721186191
     second: lab tile set_58
+  - first:
+      213: -220138924405178722
+    second: lab tile set_59
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -417,9 +420,9 @@ TextureImporter:
       name: lab tile set_2
       rect:
         serializedVersion: 2
-        x: 48
+        x: 63
         y: 104
-        width: 48
+        width: 33
         height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -861,7 +864,7 @@ TextureImporter:
         x: 0
         y: 64
         width: 32
-        height: 17
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1606,6 +1609,27 @@ TextureImporter:
       bones: []
       spriteID: 17e4316c55fc25df0800000000000000
       internalID: -192863866721186191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lab tile set_59
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 104
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9eb79980d8e1fcf0800000000000000
+      internalID: -220138924405178722
       vertices: []
       indices: 
       edges: []

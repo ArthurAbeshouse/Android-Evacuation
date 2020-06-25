@@ -46,6 +46,11 @@ public class EnemyScript : MonoBehaviour
     [SerializeField]
     private float animDelay = 3f;
 
+    AudioSource Enemy_sounds;
+
+    [SerializeField]
+    AudioClip[] Enemy_snds_lib;
+
     private bool faceLeft;
 
     private bool isShooting;
@@ -53,10 +58,6 @@ public class EnemyScript : MonoBehaviour
     private bool awake;
 
     public bool protection;
-
-   // private bool Dead = true;
-
-    //private bool Onscreen;
 
     // Start is called before the first frame update
     void Start()
@@ -68,6 +69,7 @@ public class EnemyScript : MonoBehaviour
         matDefault = SR.material;
         protection = true;
         gameObject.SetActive(false);
+        Enemy_sounds = GetComponent<AudioSource>();
     }
 
     public void Update()
@@ -83,6 +85,7 @@ public class EnemyScript : MonoBehaviour
             {
                 animator.Play("met_wake up");
                 awake = true;
+                En_bulletshootsnd();
                 transform.localScale = new Vector2(-1, 1);
                 faceLeft = false;
                 protection = false;
@@ -92,6 +95,7 @@ public class EnemyScript : MonoBehaviour
             {
                 animator.Play("met_wake up");
                 awake = true;
+                En_bulletshootsnd();
                 transform.localScale = new Vector2(1, 1);
                 faceLeft = true;
                 protection = false;
@@ -115,6 +119,12 @@ public class EnemyScript : MonoBehaviour
         }
     }
 
+    void En_bulletshootsnd()
+    {
+        Enemy_sounds.clip = Enemy_snds_lib[0];
+        Enemy_sounds.Play();
+    }
+
     void ResetShoot()
     {
         isShooting = false;
@@ -127,68 +137,54 @@ public class EnemyScript : MonoBehaviour
         protection = true;
     }
 
-    /*public void DamageinTake()
-    {
-        health -= amount;
-    }*/
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Rigidbody2D other = collision.collider.attachedRigidbody;
-       // collision.gameObject.GetComponent<Player_bullet>();
         if (collision.CompareTag("bullet"))
         {
            // Destroy(collision.gameObject);
             if (protection)
             {
-               // health += 0;
-               // Player_bul = collision.CompareTag("bullet").GetComponent<Player_bullet>().Deflect(protection);
-                //other.gameObject.GetComponent<Player_bullet>.Deflect();
                 SR.material = matDefault;
-
-                //Player_b.GetComponent<Player_bullet>().Deflect(protection);
             }
             else
             {
                 Destroy(collision.gameObject);
                 health -= Player_bullet.damage;
-                //DamageinTake();
-                //health--;
                 SR.material = matWhite;
             }
-            float rand = Random.value;
+            DamageHandler();
+        }
+    }
 
-            if (health <= 0)
+    void DamageHandler()
+    {
+        float rand = Random.value;
+        if (health <= 0)
+        {
+            PlayExplosion();
+            if (rand < 0.1f) // Items spawn 10% of the time
             {
-                PlayExplosion();
-                 if (rand < 0.1f) // Items spawn 10% of the time
-                {
-                    Instantiate(bigHealth, transform.position, Quaternion.identity);
-                    
-                    bigHealth.transform.position = transform.position;
-                } else if (rand >= 0.1f && rand < 0.2f) // Items spawn 50% of the time
-                {
-                    Instantiate(smallHealth, transform.position, Quaternion.identity);
-
-                    smallHealth.transform.position = transform.position;
-                }
-                else // Items spawn 30% of the time
-                {
-                    // do nothing
-                }
-                Die();
+                Instantiate(bigHealth, transform.position, Quaternion.identity);
             }
-            else
+            else if (rand >= 0.1f && rand < 0.2f) // Items spawn 50% of the time
             {
-                Invoke("MaterialFlash", .05f);
+                Instantiate(smallHealth, transform.position, Quaternion.identity);
             }
+            else // Items spawn 30% of the time
+            {
+                // do nothing
+            }
+            Die();
+        }
+        else
+        {
+            Invoke("MaterialFlash", .05f);
         }
     }
 
     void MaterialFlash()
     {
         SR.material = matDefault;
-       // SR.enabled = true;
     }
 
     private void Die()

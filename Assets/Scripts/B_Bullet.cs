@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class B_Bullet : MonoBehaviour
@@ -45,7 +43,7 @@ public class B_Bullet : MonoBehaviour
     {
         //Rigidbody2D rb2d = GetComponent<Rigidbody2D>();
       //  rb2d.velocity = (player.transform.position - transform.position).normalized * speed;
-        rb2d.AddForce(new Vector2(0, rb2d.gravityScale));
+        rb2d.AddForce(new Vector2(0, DropGravity));
         //rb2d.velocity = (player.transform.position - transform.position).normalized * speed;
 
 

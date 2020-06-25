@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 343647257828493746}
   - component: {fileID: 343647257828493750}
   - component: {fileID: 343647257828493749}
-  - component: {fileID: 343647257828493751}
   - component: {fileID: 343647257828493736}
   m_Layer: 0
   m_Name: Big_health
@@ -30,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 343647257828493745}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.006158, y: -0.15695295, z: 0}
+  m_LocalPosition: {x: -0.269, y: 0.2518311, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -143,19 +142,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 5
---- !u!114 &343647257828493751
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 343647257828493745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79e0aef3302fb462c8c167e531fbb134, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HealthBonus_small: 2
 --- !u!60 &343647257828493736
 PolygonCollider2D:
   m_ObjectHideFlags: 0
