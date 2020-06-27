@@ -35,7 +35,7 @@ Android Evacuation was designed with an easy to use and intuitive control scheme
     ![image](https://github.com/ArthurAbeshouse/Android-Evacuation/blob/master/Images/6.png)
     *OUCH!* That hurt. 
     
-    That little hat also took off some of our health. I've definitely learned my lesson. 
+    That little hat also took off some of our health. I've definitely learned my lesson.
     ![image](https://github.com/ArthurAbeshouse/Android-Evacuation/blob/master/Images/7.png)
     
     
