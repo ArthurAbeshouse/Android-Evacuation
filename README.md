@@ -1,5 +1,5 @@
 # Android-Evacuation
-![image](https://github.com/ArthurAbeshouse/Android-Evacuation/blob/gh-pages/Assets/images/1.jpg)
+![image](Assets/images/1.jpg)
 
 ## Introduction
 Android-Evacuation is a 2d action platformer, created by Arthur Abeshouse, similar in vein of the classic mega man games. The game stars Jex, an android who wishes to escape the lab in which they were created. Are you willing to help him escape or let him become scrap metal?
