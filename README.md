@@ -25,7 +25,7 @@ Android Evacuation was designed with an easy to use and intuitive control scheme
 
  2. After clicking "PLAY", you'll be droped right into the game. 
     ![image](https://github.com/ArthurAbeshouse/Android-Evacuation/blob/master/Images/2.png)
-    The goal is to move to the right using either the arrow keys or the 'W', 'A', 'S', 'D' keys on your keyboard. To jump, you press the space bar and if you need to take a break, then you can press the 'P' key to pause the game. You'll eventually get the hang of it, we all gotta start somewhere.
+    The goal is to move to the right using either the arrow keys or the 'W', 'A', 'S', 'D' keys on your keyboard. To jump, you press the space bar and if you need to take a break, then you can press "enter"/"return" to pause the game. You'll eventually get the hang of it, we all gotta start somewhere.
 
  3. If we move to the right you'll see...
     ![image](https://github.com/ArthurAbeshouse/Android-Evacuation/blob/master/Images/3.png)
