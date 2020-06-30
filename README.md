@@ -39,7 +39,7 @@ Android Evacuation was designed with an easy to use and intuitive control scheme
     ![image](https://github.com/ArthurAbeshouse/Android-Evacuation/blob/master/Images/7.png)
     
     
-    In order to defend our selfs againts this helmet hermit, we have to shoot him down by pressing the 'C' key. Jex will shoot a lemon like pellet from this hand and take out the enemy. Do be careful, you can only hit him when he pops out of his helemet.
+    In order to defend our selfs againts this helmet hermit, we have to shoot him down by pressing the 'X' key or the 'K' key. Jex will shoot a lemon like pellet from this hand and take out the enemy. Do be careful, you can only hit him when he pops out of his helemet.
     ![image](https://github.com/ArthurAbeshouse/Android-Evacuation/blob/master/Images/5.png)
     
 4. Now that we've sucessfully disposed of the hermit, you'll notice that they sometimes leave behind glowing white-ish, yellow-ish orbs. 
