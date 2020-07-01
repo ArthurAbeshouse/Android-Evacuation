@@ -14,7 +14,7 @@ Check out the article I wrote about my game.
 * Arthur Abeshouse [Github](https://github.com/ArthurAbeshouse) | [Twitter](https://twitter.com/ArthurAbeshouse) | [LinkedIn](https://www.linkedin.com/in/arthur-abeshouse-020804102/)
 
 ## Installation
-There is no instalation required. The game works out of the box in your web browser of choice. 
+There is no instalation required. The game works out of the box in your web browser of choice. Although it might be a little unstable in Microsoft Edge.
 
 ## Usage
 Android Evacuation was designed with an easy to use and intuitive control scheme so that anyone can pick it up and play. If you're still confused as to how the game works, then please enjoy these step by step instructions.
