@@ -36,6 +36,7 @@ Android Evacuation was designed with an easy to use and intuitive control scheme
     *OUCH!* That hurt. 
     
     That little hat also took off some of our health. I've definitely learned my lesson.
+    
     ![image](Assets/images/7.png)
     
     
@@ -44,6 +45,7 @@ Android Evacuation was designed with an easy to use and intuitive control scheme
     
 4. Now that we've sucessfully disposed of the hermit, you'll notice that they sometimes leave behind glowing white-ish, yellow-ish orbs. 
     ![image](Assets/images/4.png)
+    
     Those are energy pellets, upon touching one you'll recover some of the lost health from the enemy. The small pellets restore two units of health and the big pelets restore 10 units of health. You'll need them if you plan to surive.
 
 ## Contributing to Android Evacuation
