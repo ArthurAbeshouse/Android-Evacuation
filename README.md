@@ -8,7 +8,7 @@ Android-Evacuation is a 2d action platformer, created by Arthur Abeshouse, simil
 [Chrome/Firefox Version](https://arthurabeshouse.github.io/Android-Evacuation_Game/) [Safari/Microsoft edge Version](https://arthurabeshouse.github.io/Android-Evacuation_Game_edge-safari/)
 
 #### Blog post
-Check out the article I wrote about my game.
+[Check out the article I wrote about my game](https://www.linkedin.com/pulse/android-evacuation-arthur-abeshouse/?published=t)
 
 #### Social links
 * Arthur Abeshouse [Github](https://github.com/ArthurAbeshouse) | [Twitter](https://twitter.com/ArthurAbeshouse) | [LinkedIn](https://www.linkedin.com/in/arthur-abeshouse-020804102/)
