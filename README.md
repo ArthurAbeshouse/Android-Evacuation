@@ -5,7 +5,7 @@
 Android-Evacuation is a 2d action platformer, created by Arthur Abeshouse, similar in vein of the classic mega man games. The game stars Jex, an android who wishes to escape the lab in which they were created. Are you willing to help him escape or let him become scrap metal?
 
 #### Link to the game
-You can play the game in your web browser right, here.
+[Chrome/Firefox Version](https://arthurabeshouse.github.io/Android-Evacuation_Game/) [Safari/Microsoft edge Version](https://arthurabeshouse.github.io/Android-Evacuation_Game_edge-safari/)
 
 #### Blog post
 Check out the article I wrote about my game.
@@ -14,7 +14,7 @@ Check out the article I wrote about my game.
 * Arthur Abeshouse [Github](https://github.com/ArthurAbeshouse) | [Twitter](https://twitter.com/ArthurAbeshouse) | [LinkedIn](https://www.linkedin.com/in/arthur-abeshouse-020804102/)
 
 ## Installation
-There is no instalation required. The game works out of the box in your web browser of choice. Although it might be a little unstable in Microsoft Edge.
+There is no instalation required. The game works out of the box in your web browser of choice.
 
 ## Usage
 Android Evacuation was designed with an easy to use and intuitive control scheme so that anyone can pick it up and play. If you're still confused as to how the game works, then please enjoy these step by step instructions.
